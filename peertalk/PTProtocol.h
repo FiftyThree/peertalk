@@ -22,13 +22,13 @@ static const uint32_t PTFrameNoTag = 0;
 static const uint32_t PTFrameTypeEndOfStream = 0;
 
 // NSError domain
-NSString *PTProtocolErrorDomain;
+extern NSString *PTProtocolErrorDomain;
 
 
 @interface PTProtocol : NSObject
 
 // Queue on which to run data processing blocks.
-@property dispatch_queue_t queue;
+@property (nonatomic, assign) dispatch_queue_t queue;
 
 // Get the shared protocol object for *queue*
 + (PTProtocol*)sharedProtocolForQueue:(dispatch_queue_t)queue;

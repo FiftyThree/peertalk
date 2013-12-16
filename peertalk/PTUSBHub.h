@@ -17,7 +17,7 @@
 //    };
 //  }
 //
-NSString *PTUSBDeviceDidAttachNotification;
+extern NSString *PTUSBDeviceDidAttachNotification;
 
 // PTUSBDeviceDidDetachNotification
 // Posted when a device has been detached.
@@ -27,10 +27,10 @@ NSString *PTUSBDeviceDidAttachNotification;
 //    MessageType = Detached;
 //  }
 //
-NSString *PTUSBDeviceDidDetachNotification;
+extern NSString *PTUSBDeviceDidDetachNotification;
 
 // NSError domain
-NSString *PTUSBHubErrorDomain;
+extern NSString *PTUSBHubErrorDomain;
 
 // Error codes returned with NSError.code for NSError domain PTUSBHubErrorDomain
 typedef enum {
