@@ -1,0 +1,4189 @@
+{
+    "children": [],
+    "subgroups": [
+        {
+            "children": [
+                {
+                    "defaultValue": "true",
+                    "key": "HideStreamLoadButtons",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "LogServiceActivity",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "EnableStudio",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ShowLoginDialog",
+                    "title": "Show Login Dialog"
+                }
+            ],
+            "key": "Service",
+            "subgroups": [
+                {
+                    "children": [
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "SetServiceEnvironment_Development",
+                            "title": "Development"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "SetServiceEnvironment_Staging",
+                            "title": "Staging"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "SetServiceEnvironment_Preview",
+                            "title": "Preview"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "SetServiceEnvironment_Production",
+                            "title": "Production"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "SetServiceEnvironment_Custom",
+                            "title": "Custom"
+                        }
+                    ],
+                    "key": "Environment",
+                    "subgroups": [],
+                    "type": "group"
+                }
+            ],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "true",
+                    "key": "Enabled",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "0.2",
+                    "key": "TwoTouchGestureInactivityPeriod",
+                    "max": "0.5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "SlowAnimations",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "DebugAnimations",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ButtonResetHasEverConnectedPencil",
+                    "title": "Reset Has Ever Connected Pencil"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "LogSpecialEvents",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ButtonExpireUnlockedToolsNow",
+                    "title": "Expire Unlocked Tools Now"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "UseSpeedyExpiration",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ButtonResetPencilUnlockedTools",
+                    "title": "Reset Tool Unlock State"
+                },
+                {
+                    "defaultValue": "30",
+                    "key": "LowBatteryWarningThreshold",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "10",
+                    "key": "CriticalBatteryWarningThreshold",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "30",
+                    "key": "FirmwareUpgradeMinBattery",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": 0.2,
+                    "key": "IconTransitionAnimationDuration",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 0.2,
+                    "key": "WellEasingAnimationDuration",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 1.5,
+                    "key": "CometRotationsPerSecond",
+                    "max": "5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 2,
+                    "key": "CometMinAnimationDurationSeconds",
+                    "max": "5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 16,
+                    "key": "CometMaxThickness",
+                    "max": "16",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "2.8",
+                    "key": "FlashFrequencySeconds",
+                    "max": "60",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "2.6",
+                    "key": "FlashDurationSeconds",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.25",
+                    "key": "BatteryFlashOpacityFactor",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.5",
+                    "key": "DisconnectedFlashOpacityFactor",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                }
+            ],
+            "key": "Pencil",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "DebugMode",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "11",
+                    "key": "MaxNumVisiblePages",
+                    "max": "19",
+                    "min": "3",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "45.f",
+                    "key": "VerticalFieldOfView",
+                    "max": "90",
+                    "min": "15",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-320.f",
+                    "key": "WanderingPageZOffset",
+                    "max": "300",
+                    "min": "-2000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 25,
+                    "key": "WanderingPageScale",
+                    "max": "100",
+                    "min": "1",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.22f",
+                    "key": "MakeWanderingDuration",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 20,
+                    "key": "DropZoneHoverPageOffset",
+                    "max": "50",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.6f",
+                    "key": "PageDropDuration",
+                    "max": "5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 95,
+                    "key": "PageDropFadeOutThreshold",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "DefaultValue": "0",
+                    "Titles": [
+                        "None",
+                        "Open",
+                        "Closed",
+                        "SinglePage"
+                    ],
+                    "Values": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "defaultValue": "0",
+                    "key": "PathStateOverride",
+                    "type": "PSMultiValueSpecifier",
+                    "varType": "int"
+                }
+            ],
+            "key": "ButterflyView",
+            "subgroups": [
+                {
+                    "children": [
+                        {
+                            "defaultValue": "774",
+                            "key": "PathZOffset",
+                            "max": "2000",
+                            "min": "100",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "1537",
+                            "key": "PathWidth",
+                            "max": "2000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "848",
+                            "key": "PathHeight",
+                            "max": "2000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "592",
+                            "key": "PathCurveWidthFraction",
+                            "max": "10000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "295",
+                            "key": "PathCurveHeightFraction",
+                            "max": "10000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0",
+                            "key": "PathSpacingAlpha",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1",
+                            "key": "PathSpacingLambda",
+                            "max": "100",
+                            "min": "1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "10000.f",
+                            "key": "PathCompression",
+                            "max": "10000",
+                            "min": "1",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Open",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "930",
+                            "key": "PathZOffset",
+                            "max": "2000",
+                            "min": "100",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "1400",
+                            "key": "PathWidth",
+                            "max": "2000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0",
+                            "key": "PathHeight",
+                            "max": "2000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "647",
+                            "key": "PathCurveWidthFraction",
+                            "max": "10000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "294",
+                            "key": "PathCurveHeightFraction",
+                            "max": "10000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0",
+                            "key": "PathSpacingAlpha",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1",
+                            "key": "PathSpacingLambda",
+                            "max": "100",
+                            "min": "1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "373.f",
+                            "key": "PathCompression",
+                            "max": "10000",
+                            "min": "1",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Closed",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "100",
+                            "key": "PathZOffset",
+                            "max": "2000",
+                            "min": "100",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "450",
+                            "key": "PathWidth",
+                            "max": "2000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "848",
+                            "key": "PathHeight",
+                            "max": "2000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "592",
+                            "key": "PathCurveWidthFraction",
+                            "max": "10000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "295",
+                            "key": "PathCurveHeightFraction",
+                            "max": "10000",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0",
+                            "key": "PathSpacingAlpha",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1",
+                            "key": "PathSpacingLambda",
+                            "max": "100",
+                            "min": "1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "10000.f",
+                            "key": "PathCompression",
+                            "max": "10000",
+                            "min": "1",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "SinglePage",
+                    "subgroups": [],
+                    "type": "group"
+                }
+            ],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "446.f",
+                    "key": "LightWidth",
+                    "max": "500",
+                    "min": "400",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1100.f",
+                    "key": "LightZ",
+                    "max": "1200",
+                    "min": "1000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.512",
+                    "key": "ShadowIntensity",
+                    "max": "0.75",
+                    "min": "0.25",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "24.53f",
+                    "key": "VerticalFieldOfView",
+                    "max": "45",
+                    "min": "5",
+                    "varType": "float"
+                }
+            ],
+            "key": "SinglePageView",
+            "subgroups": [
+                {
+                    "children": [
+                        {
+                            "defaultValue": "0.25f",
+                            "key": "MaxHistorySeconds",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1",
+                            "key": "MaxDiscardSamples",
+                            "max": "20",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "3",
+                            "key": "MaxSampleCount",
+                            "max": "10",
+                            "min": "3",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "2",
+                            "key": "MinSampleCount",
+                            "max": "10",
+                            "min": "3",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0",
+                            "key": "MaxExtraSampleCount",
+                            "max": "20",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "15",
+                            "key": "UnreliableSampleEdgeDistance",
+                            "max": "30",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "50",
+                            "key": "MinEdgeDistance",
+                            "max": "100",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.5f",
+                            "key": "FastSmoothingLambda",
+                            "max": "1.0",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.25f",
+                            "key": "SlowSmoothingLambda",
+                            "max": "1.0",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "420",
+                            "key": "FastVelocity",
+                            "max": "1000",
+                            "min": "50",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "180",
+                            "key": "SlowVelocity",
+                            "max": "1000",
+                            "min": "50",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.15f",
+                            "key": "AccelerationDecayLambda",
+                            "max": "0.5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.35f",
+                            "key": "VelocityDecayLambda",
+                            "max": "0.75",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.125f",
+                            "key": "MaxExtrapolationDurationSeconds",
+                            "max": "1.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "200",
+                            "key": "MaxExtrapolationSampleCount",
+                            "max": "500",
+                            "min": "50",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "200",
+                            "key": "MaxPenOffscreenDistance",
+                            "max": "500",
+                            "min": "50",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "1.0f",
+                            "key": "MaxPenOffscreenSeconds",
+                            "max": "2.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "OffscreenTouches",
+                    "subgroups": [],
+                    "type": "group"
+                }
+            ],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": -1450,
+                    "key": "ZValue",
+                    "max": -800,
+                    "min": -2000,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 253.0,
+                    "key": "ItemSpacingWorld",
+                    "max": 500,
+                    "min": 0,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "194.1f",
+                    "key": "SelectedJournalZOffset",
+                    "max": "600",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.960784f",
+                    "key": "SelectedJournalPopThreshold",
+                    "max": "10",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.568627f",
+                    "key": "TappedJournalOpenThreshold",
+                    "max": "10",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "10.f",
+                    "key": "TargetFriction",
+                    "max": "15",
+                    "min": "1",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "20.f",
+                    "key": "SettlingSpringAngularFrequencyNormal",
+                    "max": "100",
+                    "min": "4",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "13.2235f",
+                    "key": "SettlingSpringAngularFrequencyTap",
+                    "max": "100",
+                    "min": "4",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "636.765f",
+                    "key": "InertiaActivationMinVelocity",
+                    "max": "1000",
+                    "min": "50",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.0647059f",
+                    "key": "InertiaOvershootDistance",
+                    "max": "3",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "18.198f",
+                    "key": "BounceSpringAngularFrequency",
+                    "max": "50",
+                    "min": "1",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "69.53f",
+                    "key": "BounceSpringDampingRatio",
+                    "max": "100",
+                    "min": "40",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-15098.f",
+                    "key": "JournalDropAcceleration",
+                    "max": "-1",
+                    "min": "-20000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-2764.f",
+                    "key": "JournalDropInitialVelocity",
+                    "max": "0",
+                    "min": "-10000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "2000.f",
+                    "key": "JournalDropInitialPosition",
+                    "max": "2000",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.2f",
+                    "key": "ControlsFadeAnimationDurationSeconds",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "2.57f",
+                    "key": "PanSpeed",
+                    "max": 4.0,
+                    "min": 0.0,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 25.5,
+                    "key": "AddOrDeleteAnimationSpringTension",
+                    "max": 40.0,
+                    "min": 0.0,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 20,
+                    "key": "DropZoneSpringTension",
+                    "max": 40.0,
+                    "min": 0.0,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "50.f",
+                    "key": "PanSpringiness",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                }
+            ],
+            "key": "RowView",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "ShowShadowMap",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "0.46",
+                    "key": "AmbientColor",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "103",
+                    "key": "DiffuseColorDecrementPerPageOriginalIPad",
+                    "max": "150",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "54",
+                    "key": "DiffuseColorDecrementPerPage",
+                    "max": "150",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.59",
+                    "key": "DiffuseColor",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.676",
+                    "key": "ShadowIntensity",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-313.726f",
+                    "key": "PositionX",
+                    "max": "5000",
+                    "min": "-5000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "862.745f",
+                    "key": "PositionY",
+                    "max": "5000",
+                    "min": "-5000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1568.f",
+                    "key": "PositionZ",
+                    "max": "5000",
+                    "min": "-5000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.f",
+                    "key": "TargetX",
+                    "max": "5000",
+                    "min": "-5000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-156.f",
+                    "key": "TargetY",
+                    "max": "5000",
+                    "min": "-5000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-1500.f",
+                    "key": "TargetZ",
+                    "max": "5000",
+                    "min": "-5000",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "57.67f",
+                    "key": "FieldOfView",
+                    "max": "170",
+                    "min": "1",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-30.88f",
+                    "key": "Falloff",
+                    "max": "150",
+                    "min": "-100",
+                    "varType": "float"
+                }
+            ],
+            "key": "Lighting",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "300.0",
+                    "key": "MinDiameter",
+                    "max": "500",
+                    "min": "10",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "575.0",
+                    "key": "MaxDiameter",
+                    "max": "1000",
+                    "min": "200",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "3.0",
+                    "key": "MaxZoomFactor",
+                    "max": "15.0",
+                    "min": "1.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "17.0",
+                    "key": "RimWidth",
+                    "max": "100.0",
+                    "min": "3.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "5.0",
+                    "key": "InnerHitTestMargin",
+                    "max": "100.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "50.0",
+                    "key": "OuterHitTestMargin",
+                    "max": "200.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "200.0",
+                    "key": "StrokeSafeZoneMargin",
+                    "max": "500.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "450.0",
+                    "key": "MaxDiameterOvershoot",
+                    "max": "800.0",
+                    "min": "200.0",
+                    "varType": "float"
+                }
+            ],
+            "key": "Loupe",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "EnableTouchRadius",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "true",
+                    "key": "EnableTouchClassificationUndoStack",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "0.005f",
+                    "key": "debounceInterval",
+                    "max": "0.015",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "85.0f",
+                    "key": "maxTapArcLengthAtMaxDuration",
+                    "max": "100.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "55.0f",
+                    "key": "maxTapArcLengthAtMinDuration",
+                    "max": "100.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.02f",
+                    "key": "minTapDuration",
+                    "max": "0.1",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.2f",
+                    "key": "maxTapDuration",
+                    "max": "2.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.3f",
+                    "key": "maxPenEventWaitTime",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "250.0f",
+                    "key": "longPenLength",
+                    "max": "350.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "66.0f",
+                    "key": "longFingerLength",
+                    "max": "100.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.2f",
+                    "key": "longDuration",
+                    "max": "2.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.109206f",
+                    "key": "fingerTapIsolationSeconds",
+                    "max": "0.5",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.105596f",
+                    "key": "fingerSmudgeIsolationSeconds",
+                    "max": "0.3",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "5.0f",
+                    "key": "minFingerIsolatedStrokeTravel",
+                    "max": "44",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "8.0f",
+                    "key": "penDownBeforeTouchCycleThreshold",
+                    "max": "30",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "8.0f",
+                    "key": "penUpAfterTouchCycleThreshold",
+                    "max": "30",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "22.0f",
+                    "key": "maxTapGestureTapArcLengthAtMaxDuration",
+                    "max": "100.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "13.03971f",
+                    "key": "maxTapGestureTapArcLengthAtMinDuration",
+                    "max": "100.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.00f",
+                    "key": "minTapGestureTapDuration",
+                    "max": "0.1",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.326354f",
+                    "key": "maxTapGestureTapDuration",
+                    "max": "2.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.0929603f",
+                    "key": "smudgeTapIsolationSeconds",
+                    "max": "0.15",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "2",
+                    "key": "smudgeCommitCount",
+                    "max": "4",
+                    "min": "0",
+                    "varType": "int"
+                }
+            ],
+            "key": "PalmRejection",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "0.4f",
+                    "key": "MaxTwoTouchStartDelaySeconds",
+                    "max": "4.0",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "11.029411f",
+                    "key": "PinchTotalTravelThreshold",
+                    "max": "40.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.711765f",
+                    "key": "PinchAbsDotThreshold",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "6.078432f",
+                    "key": "PinchLengthThreshold",
+                    "max": "30.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.194118f",
+                    "key": "PinchCorrelationCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.845098f",
+                    "key": "PinchFingerCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.000000f",
+                    "key": "PinchLengthRatioCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.715686f",
+                    "key": "PinchKinkFreeCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "8.823529f",
+                    "key": "PanLengthThreshold",
+                    "max": "30.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.150980f",
+                    "key": "PanCorrelationCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.727451f",
+                    "key": "PanFingerCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.000000f",
+                    "key": "PanLengthRatioCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.292157f",
+                    "key": "PanKinkFreeCutoff",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "235.705887f",
+                    "key": "PanStartDistanceThreshold",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.756863f",
+                    "key": "PanPalmCentroidTime",
+                    "max": "2.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "108.221474f",
+                    "key": "PanPalmCentroidThreshold",
+                    "max": "300.0",
+                    "min": "0.0",
+                    "varType": "float"
+                }
+            ],
+            "key": "Gestures",
+            "subgroups": [
+                {
+                    "children": [
+                        {
+                            "defaultValue": "2.0f",
+                            "key": "SecondActionAnimationThreshold",
+                            "max": "4.0",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.9f",
+                            "key": "AnimationDelaySeconds",
+                            "max": "4.0",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "108.f",
+                            "key": "MinGestureVelocity",
+                            "max": "400",
+                            "min": "50",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "3175.f",
+                            "key": "MaxGestureVelocity",
+                            "max": "4000",
+                            "min": "100",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "957.f",
+                            "key": "BaselineGestureVelocity",
+                            "max": "2000.0",
+                            "min": "100",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.0015f",
+                            "key": "MinGestureDelta",
+                            "max": "0.01",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "2.275f",
+                            "key": "SecondActionFactor",
+                            "max": "10.0",
+                            "min": "0",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Rewind",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "25.0f",
+                            "key": "MinDeltaFromFirstSampleDistance",
+                            "max": "100.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "200.0f",
+                            "key": "VelocityThreshold",
+                            "max": "500.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.65f",
+                            "key": "MinIsolatedStroke",
+                            "max": "1.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.14f",
+                            "key": "MaxPCARatio",
+                            "max": "0.5",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.85f",
+                            "key": "MinKink",
+                            "max": "1.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.75f",
+                            "key": "MinYComponent",
+                            "max": "1.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Tray",
+                    "subgroups": [],
+                    "type": "group"
+                }
+            ],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "0.25f",
+                    "key": "MaxHistorySeconds",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "5",
+                    "key": "MaxDiscardSamples",
+                    "max": "20",
+                    "min": "0",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "4",
+                    "key": "MinSampleCount",
+                    "max": "10",
+                    "min": "3",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "0",
+                    "key": "MaxExtraSampleCount",
+                    "max": "20",
+                    "min": "0",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "15",
+                    "key": "UnreliableSampleEdgeDistance",
+                    "max": "30",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "50",
+                    "key": "MinEdgeDistance",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "30",
+                    "key": "MaxOffscreenExtrapolation",
+                    "max": "500",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.5f",
+                    "key": "FastSmoothingLambda",
+                    "max": "1.0",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.25f",
+                    "key": "SlowSmoothingLambda",
+                    "max": "1.0",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "420",
+                    "key": "FastVelocity",
+                    "max": "1000",
+                    "min": "50",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "180",
+                    "key": "SlowVelocity",
+                    "max": "1000",
+                    "min": "50",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.125f",
+                    "key": "MaxExtrapolationDurationSeconds",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "200",
+                    "key": "MaxExtrapolationSampleCount",
+                    "max": "500",
+                    "min": "50",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "0.15f",
+                    "key": "AccelerationDecayLambda",
+                    "max": "0.5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.35f",
+                    "key": "VelocityDecayLambda",
+                    "max": "0.75",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "10",
+                    "key": "GroundingSampleCount",
+                    "max": "40",
+                    "min": "0",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "30.f",
+                    "key": "MinTotalStrokeLength",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                }
+            ],
+            "key": "OffscreenStrokes",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "0.10f",
+                    "key": "DropDurationSecondsBase",
+                    "max": "1.5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.20f",
+                    "key": "DropDurationSecondsPerJournalIndex",
+                    "max": "1.5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "194.1f * 2.f",
+                    "key": "WanderingJournalZOffset",
+                    "max": "1000",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "200.f",
+                    "key": "DropZoneVMargin",
+                    "max": "400.0",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "8.f",
+                    "key": "ActiveDropZonePadding",
+                    "max": "40",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.25f",
+                    "key": "DropZoneGapSize",
+                    "max": "1.0",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.1f",
+                    "key": "MovePageJournalScaling",
+                    "max": "2.0",
+                    "min": "0",
+                    "varType": "float"
+                }
+            ],
+            "key": "MoveJournal",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "100",
+                    "key": "NumberOfJournalsToGenerate",
+                    "max": "1000",
+                    "min": "1",
+                    "varType": "int"
+                },
+                {
+                    "defaultValue": "100",
+                    "key": "NumberOfJournalsPerJournal",
+                    "max": "1000",
+                    "min": "1",
+                    "varType": "int"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ButtonGenerateDebugJournals",
+                    "title": "Generate Journals"
+                }
+            ],
+            "key": "DebugData",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "AllowInvalidCert",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": 4,
+                    "key": "QueueConcurrency",
+                    "max": 12,
+                    "min": 1,
+                    "varType": "int"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ClearNSURLCache",
+                    "title": "Clear NSURLCache"
+                }
+            ],
+            "key": "Network",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "EnablePresentationMode",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "true",
+                    "key": "EnableAllTools",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "0.3f",
+                    "key": "AutoAddPageThreshold",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "10.f",
+                    "key": "AutoAddPageFlashFade",
+                    "max": "100.0",
+                    "min": "1",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.5f",
+                    "key": "AutoAddPageFlashAlpha",
+                    "max": "1.0",
+                    "min": "0.0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "LogSerializationActivity",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "MakeViewToBeRendered",
+                    "title": "Render Views"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ButtonEmailLog",
+                    "title": "Email CSV Logs"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "EnableStrokeLog",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "1.f",
+                    "key": "OverlayIndicatorDelaySeconds",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.f",
+                    "key": "OverlayIndicatorDurationSeconds",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "HideConfidentialityWarning",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                }
+            ],
+            "key": "Misc",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [],
+            "key": "InkEngine",
+            "subgroups": [
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "NewPathSmoothing",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "Refactored",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "50.0f",
+                            "key": "WeightingFactor",
+                            "max": "100",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.5f",
+                            "key": "VelocityEstimatorSmoothing",
+                            "max": "1.0",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.34f",
+                            "key": "MinSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.67f",
+                            "key": "MaxSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.55f",
+                            "key": "MinNibSize",
+                            "max": "5.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.03f",
+                            "key": "WingSize",
+                            "max": "5.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "2",
+                            "key": "NumSamplesDecreasing",
+                            "max": "10",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "8",
+                            "key": "NumSamplesIncreasing",
+                            "max": "15",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0.0f",
+                            "key": "MinDistance",
+                            "max": "5.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.563177f",
+                            "key": "EndNib",
+                            "max": "3.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.129964f",
+                            "key": "PressureStartAlpha",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.808664f",
+                            "key": "PressureAlpha",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.00722022f",
+                            "key": "PressureMin",
+                            "max": "0.1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "5",
+                            "key": "PressureMaxNumberSamples",
+                            "max": "10",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0.51083f",
+                            "key": "PressureVelocityBlend",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "50.0f",
+                            "key": "PressureSizeScale",
+                            "max": "100",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.0f",
+                            "key": "PressureSizeConstant",
+                            "max": "50",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.67f",
+                            "key": "PressureSizeExponent",
+                            "max": "4",
+                            "min": "0.01",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.55f",
+                            "key": "PressureMinNibSize",
+                            "max": "5.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.86f",
+                            "key": "NearlyWhiteIntensityThreshold",
+                            "max": "1.0",
+                            "min": "0.75",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "FountainPen",
+                    "subgroups": [],
+                    "tags": [
+                        "canvasApp"
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "NewPathSmoothing",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "Refactored",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "50.0f",
+                            "key": "WeightingFactor",
+                            "max": "100",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.0f",
+                            "key": "MinDistance",
+                            "max": "5.0",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.1f",
+                            "key": "MinSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.1f",
+                            "key": "MaxSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.1f",
+                            "key": "VelocityEstimatorSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.0f",
+                            "key": "MinimalSpeedCutoff",
+                            "max": "5.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.9f",
+                            "key": "SizeSmoothingDecreasing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.8f",
+                            "key": "SizeSmoothingIncreasing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "SmudgePen",
+                    "subgroups": [],
+                    "tags": [
+                        "canvasApp"
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "NewPathSmoothing",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "Refactored",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "50.00f",
+                            "key": "WeightingFactor",
+                            "max": "100",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.33f",
+                            "key": "MinSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.50f",
+                            "key": "MaxSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.00f",
+                            "key": "TrendMultiplier",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.5f",
+                            "key": "MinDistance",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "3.5f",
+                            "key": "MinSize",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "4.25f",
+                            "key": "MaxSize",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.25f",
+                            "key": "WidthInterpolation",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.76f",
+                            "key": "PressureVelocityBlend",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 0.56,
+                            "key": "PressureSizeConstant",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "7.09f",
+                            "key": "PressureSizeScale",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.92f",
+                            "key": "PressureSizeExponent",
+                            "max": "4",
+                            "min": "0.01",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.67f",
+                            "key": "PressureSizeMin",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "10.0f",
+                            "key": "PressureSizeMax",
+                            "max": "50",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.96f",
+                            "key": "NearlyWhiteIntensityThreshold",
+                            "max": "1.0",
+                            "min": "0.75",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Marker",
+                    "subgroups": [],
+                    "tags": [
+                        "canvasApp"
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "NewPathSmoothing",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "Refactored",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "50.00f",
+                            "key": "WeightingFactor",
+                            "max": "100",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.34f",
+                            "key": "MinSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.51f",
+                            "key": "MaxSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.00f",
+                            "key": "TrendMultiplier",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.07f",
+                            "key": "MinDistance",
+                            "max": "5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.7f",
+                            "key": "MinSize",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.7f",
+                            "key": "MaxSize",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.7f",
+                            "key": "WidthInterpolation",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.47f",
+                            "key": "PressureVelocityBlend",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.51f",
+                            "key": "PressureSizeConstant",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.06498f",
+                            "key": "PressureSizeScale",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.39f",
+                            "key": "PressureSizeExponent",
+                            "max": "4",
+                            "min": "0.01",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.63f",
+                            "key": "PressureSizeMin",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.61f",
+                            "key": "PressureSizeMax",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.86f",
+                            "key": "NearlyWhiteIntensityThreshold",
+                            "max": "1.0",
+                            "min": "0.75",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.55f",
+                            "key": "TinyLineMax",
+                            "max": "1.0",
+                            "min": "0.01",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Rollerball",
+                    "subgroups": [],
+                    "tags": [
+                        "canvasApp"
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "NewPathSmoothing",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "50.00f",
+                            "key": "WeightingFactor",
+                            "max": "100",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.34f",
+                            "key": "MinSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.67f",
+                            "key": "MaxSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "3.0f",
+                            "key": "MinNibSize",
+                            "max": "20",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.06f",
+                            "key": "WingSize",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "2",
+                            "key": "NumSamplesDecreasing",
+                            "max": "10",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "8",
+                            "key": "NumSamplesIncreasing",
+                            "max": "15",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "10.0f",
+                            "key": "EndNib",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.756318f",
+                            "key": "PressureVelocityBlend",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "100.0f",
+                            "key": "PressureSizeScale",
+                            "max": "100",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.0f",
+                            "key": "PressureSizeConstant",
+                            "max": "50",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.67f",
+                            "key": "PressureSizeExponent",
+                            "max": "4",
+                            "min": "0.01",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "5.0f",
+                            "key": "PressureMinNibSize",
+                            "max": "5.0",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.86f",
+                            "key": "NearlyWhiteIntensityThreshold",
+                            "max": "1.0",
+                            "min": "0.75",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Eraser",
+                    "subgroups": [],
+                    "tags": [
+                        "canvasApp"
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "false",
+                            "key": "NewPathSmoothing",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "Refactored",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "35.00f",
+                            "key": "WeightingFactor",
+                            "max": "100",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.26f",
+                            "key": "MinSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.5f",
+                            "key": "MaxSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "2",
+                            "key": "NumSamplesDecreasing",
+                            "max": "10",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "2",
+                            "key": "NumSamplesIncreasing",
+                            "max": "15",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "45.0f",
+                            "key": "MinSize",
+                            "max": "200",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "70.0f",
+                            "key": "MaxSize",
+                            "max": "200",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.00f",
+                            "key": "MinOpacity",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.4f",
+                            "key": "MaxOpacity",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.08f",
+                            "key": "VelocityRamp",
+                            "max": "0.5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.0f",
+                            "key": "MinDistance",
+                            "max": "10",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "500.0f",
+                            "key": "DefaultVelocity",
+                            "max": "1000",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "45",
+                            "key": "EdgeStampSizeInPoints",
+                            "max": "200",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "70",
+                            "key": "FillStampSizeInPoints",
+                            "max": "200",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "3",
+                            "key": "EdgeStampCountSkip",
+                            "max": "5",
+                            "min": "0",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "1",
+                            "key": "EdgeStampScaleFactor",
+                            "max": "5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1",
+                            "key": "FillStampScaleFactor",
+                            "max": "5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "10.0f",
+                            "key": "MinPressureSize",
+                            "max": "200",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1",
+                            "key": "PressureRamp",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.44f",
+                            "key": "PressureFillSizeScale",
+                            "max": "5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.39f",
+                            "key": "PressureFillSizeConstant",
+                            "max": "5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.0f",
+                            "key": "PressureLinearS0",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.90f",
+                            "key": "NearlyWhiteIntensityThreshold",
+                            "max": "1.0",
+                            "min": "0.75",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Watercolor",
+                    "subgroups": [],
+                    "tags": [
+                        "canvasApp"
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "NewPathSmoothing",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "false",
+                            "key": "Refactored",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "50.00f",
+                            "key": "WeightingFactor",
+                            "max": "100",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.5f",
+                            "key": "VelocityEstimatorSmoothing",
+                            "max": "1.0",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.33f",
+                            "key": "MinSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.50f",
+                            "key": "MaxSmoothing",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.00f",
+                            "key": "TrendMultiplier",
+                            "max": "1",
+                            "min": "0.1",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1500.0f",
+                            "key": "InitialVelocity",
+                            "max": "3000",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1500.0f",
+                            "key": "VelocityInputRangeHigh",
+                            "max": "2000",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.01f",
+                            "key": "OpacityOutputLow",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.25f",
+                            "key": "OpacityOutputHigh",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "6",
+                            "key": "NumSamplesDecreasing",
+                            "max": "10",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "4",
+                            "key": "NumSamplesIncreasing",
+                            "max": "15",
+                            "min": "1",
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "1.0f",
+                            "key": "MinDistance",
+                            "max": "5",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.333f",
+                            "key": "TextureOpacityScale",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.025f",
+                            "key": "TextureOpacityConstant",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.0f",
+                            "key": "PressureVelocityBlend",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.0f",
+                            "key": "PressureOpacityScale",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.0f",
+                            "key": "PressureOpacityConstant",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "2.99f",
+                            "key": "PressureOpacityExponent",
+                            "max": "4",
+                            "min": "0.001",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.0f",
+                            "key": "PressureOpacityMin",
+                            "max": "1",
+                            "min": "0.000",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.28f",
+                            "key": "PressureOpacityMax",
+                            "max": "1",
+                            "min": "0.000",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.86f",
+                            "key": "NearlyWhiteIntensityThreshold",
+                            "max": "1.0",
+                            "min": "0.75",
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Pencil",
+                    "subgroups": [],
+                    "tags": [
+                        "canvasApp"
+                    ],
+                    "type": "group"
+                }
+            ],
+            "tags": [
+                "canvasApp"
+            ],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "3.0f",
+                    "key": "CursorBorderWidth",
+                    "max": "10",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.f",
+                    "key": "SmudgeAreaBorderWidth",
+                    "max": "10",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.05f",
+                    "key": "SmudgeStartPhase",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.04f",
+                    "key": "SmudgePhasePerRadian",
+                    "max": "0.25",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.1f",
+                    "key": "SmudgeMaxStampDistanceRadians",
+                    "max": "1",
+                    "min": "0.01",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "242.f",
+                    "key": "SmudgeDefaultColorAlpha",
+                    "max": "255",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "DefaultValue": "0",
+                    "Titles": [
+                        "Xyz",
+                        "CieLab",
+                        "CieLch",
+                        "Hsl",
+                        "Hsv",
+                        "Cmyk",
+                        "Cmy",
+                        "Amit &amp; Andrew",
+                        "Rgb",
+                        "Hsl Trignometric",
+                        "Hue-Cone Kubelka-Munk",
+                        "Ft",
+                        "Ft2"
+                    ],
+                    "Values": [
+                        "0",
+                        "1",
+                        "2",
+                        "5",
+                        "6",
+                        "7",
+                        "8",
+                        "9",
+                        "10",
+                        "11",
+                        "12",
+                        "13",
+                        "14"
+                    ],
+                    "defaultValue": "14",
+                    "key": "SmudgeBlendingMode",
+                    "type": "PSMultiValueSpecifier",
+                    "varType": "int"
+                }
+            ],
+            "key": "Color",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [],
+            "key": "Streams",
+            "subgroups": [
+                {
+                    "children": [
+                        {
+                            "defaultValue": "0.028f",
+                            "key": "ImageBorderRadius",
+                            "max": "0.1",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.0032f",
+                            "key": "EdgeFadeWidth",
+                            "max": ".006",
+                            "min": "0.0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.3f",
+                            "key": "LoadingIconFadeDurationSeconds",
+                            "max": 1,
+                            "min": 0.01,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.10f",
+                            "key": "GestureContinuityAnimationDurationSeconds",
+                            "max": 2,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.3f",
+                            "key": "RestContinuityAnimationDurationSeconds",
+                            "max": 2,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "SuppressOddRandomImages",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        }
+                    ],
+                    "key": "General",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "false",
+                            "key": "InfiniteStream",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "false",
+                            "key": "StaticTestStreams",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "MadeWithPaperStream",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "false",
+                            "key": "MyCreationsStream",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "false",
+                            "key": "AllCreations",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        }
+                    ],
+                    "key": "ActiveStreams",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": 14.4,
+                            "key": "TransitionSettlingRate",
+                            "max": 100,
+                            "min": 1,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 14.4,
+                            "key": "TransitionSettlingRatePinch",
+                            "max": 100,
+                            "min": 1,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 14.4,
+                            "key": "TransitionSettlingRateTap",
+                            "max": 100,
+                            "min": 1,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.25f",
+                            "key": "HideRowViewAfterTransitionAlpha",
+                            "max": 1,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.4f",
+                            "key": "PerturbationDampening",
+                            "max": 1,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.f",
+                            "key": "SelectedImageCentering",
+                            "max": 1,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.3f",
+                            "key": "MinTiltScale",
+                            "max": 1.0,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "6.75f",
+                            "key": "PerturbationRotationMagnitudeDegrees",
+                            "max": 45,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 50,
+                            "key": "PerturbationOffsetMagnitude",
+                            "max": 500,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 5,
+                            "key": "PerturbationOffsetClustering",
+                            "max": 10,
+                            "min": 1,
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "10.7f",
+                            "key": "PerturbationSecondaryRotationMagnitudeDegrees",
+                            "max": 45,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.6f",
+                            "key": "SettleBasedOnVelocityThreshold",
+                            "max": 2.0,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.75f",
+                            "key": "SettleOnStreamImageViewThreshold",
+                            "max": 1.0,
+                            "min": 0.55,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.25f",
+                            "key": "SettleOnRowViewThreshold",
+                            "max": 0.45,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "EaseSelectedImageInOutOfMidpoint",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "0.25f",
+                            "key": "DoubleTapViewTransitionAlpha",
+                            "max": 0.45,
+                            "min": 0.1,
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "ViewTransition",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": -1450,
+                            "key": "ZValue",
+                            "max": -800,
+                            "min": -1500,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.094f",
+                            "key": "HSpacing",
+                            "max": 1.0,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.092f",
+                            "key": "VSpacing",
+                            "max": 1.0,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": -61,
+                            "key": "LayoutYOffset",
+                            "max": 0,
+                            "min": -250,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.90f",
+                            "key": "MaxContentScreenWidth",
+                            "max": 1.0,
+                            "min": 0.5,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.75f",
+                            "key": "MaxContentScreenHeight",
+                            "max": 1.0,
+                            "min": 0.5,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.71",
+                            "key": "AmbientColor",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.32",
+                            "key": "DiffuseColor",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "144.f",
+                            "key": "PinchPickUpZOffset",
+                            "max": 500,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.3f",
+                            "key": "MaxStackDepartureDelay",
+                            "max": 0.45,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 10,
+                            "key": "PageLoadHorizon",
+                            "max": 16,
+                            "min": 1,
+                            "varType": "int"
+                        }
+                    ],
+                    "key": "StreamGridView",
+                    "subgroups": [
+                        {
+                            "children": [
+                                {
+                                    "defaultValue": "500.f",
+                                    "key": "PanManipulationSpringiness",
+                                    "max": 1000,
+                                    "min": 1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "true",
+                                    "key": "UsePanManipulationSpring",
+                                    "type": "PSToggleSwitchSpecifier",
+                                    "varType": "bool"
+                                },
+                                {
+                                    "defaultValue": "21.f",
+                                    "key": "PanSettlingSpringiness",
+                                    "max": 50,
+                                    "min": 1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "100.f",
+                                    "key": "BounceDampingRatio",
+                                    "max": "100",
+                                    "min": "35",
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "1.f",
+                                    "key": "Velocity",
+                                    "max": 1.5,
+                                    "min": 0.1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "1.15f",
+                                    "key": "PageSpacing",
+                                    "max": 1.5,
+                                    "min": 1.0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 0,
+                                    "key": "PerturbationRotationMagnitudeDegrees",
+                                    "max": 45,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 0,
+                                    "key": "PerturbationOffsetMagnitudeX",
+                                    "max": 500,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 0,
+                                    "key": "PerturbationOffsetMagnitudeY",
+                                    "max": 500,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 1,
+                                    "key": "PerturbationOffsetClustering",
+                                    "max": 10,
+                                    "min": 1,
+                                    "varType": "int"
+                                },
+                                {
+                                    "defaultValue": "400.0f",
+                                    "key": "SettleBasedOnVelocityThreshold",
+                                    "max": 1000.0,
+                                    "min": 0.0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.45f",
+                                    "key": "SettleOnNextPageThreshold",
+                                    "max": 1.0,
+                                    "min": 0.0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.75f",
+                                    "key": "OverPanSigmoidLambda",
+                                    "max": 1.0,
+                                    "min": 0.0,
+                                    "varType": "float"
+                                }
+                            ],
+                            "key": "Pan",
+                            "subgroups": [],
+                            "type": "group"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "defaultValue": "26.f",
+                                    "key": "IconXOffset",
+                                    "max": 100,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.11f",
+                                    "key": "ShowIconThreshold",
+                                    "max": 1,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.3f",
+                                    "key": "ActivationThreshold",
+                                    "max": 1,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "1.0f",
+                                    "key": "IconRotationPeriodSeconds",
+                                    "max": 5,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "25.f",
+                                    "key": "OpacitySettlingRate",
+                                    "max": 50,
+                                    "min": 1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "2.f",
+                                    "key": "IndicatorExtraSeconds",
+                                    "max": 10,
+                                    "min": 1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 5,
+                                    "key": "IndicatorXSpacing",
+                                    "max": 20,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 0,
+                                    "key": "IndicatorYOffset",
+                                    "max": 10,
+                                    "min": -10,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "1.5f",
+                                    "key": "InsertAnimationDurationSeconds",
+                                    "max": 5,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.5f",
+                                    "key": "InsertAnimationFadeInStartPhase",
+                                    "max": 1,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.6f",
+                                    "key": "InsertAnimationSlideEndPhase",
+                                    "max": 1,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.45f",
+                                    "key": "InsertAnimationFadeInRandomness",
+                                    "max": 0.95,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.5f",
+                                    "key": "InsertAnimationSlideRandomness",
+                                    "max": 0.95,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "200.f",
+                                    "key": "InsertAnimationZDrop",
+                                    "max": 400,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "true",
+                                    "key": "ReverseFadeInAnimation",
+                                    "type": "PSToggleSwitchSpecifier",
+                                    "varType": "bool"
+                                },
+                                {
+                                    "defaultValue": "false",
+                                    "key": "RandomizeFadeInAnimation",
+                                    "type": "PSToggleSwitchSpecifier",
+                                    "varType": "bool"
+                                },
+                                {
+                                    "defaultValue": "true",
+                                    "key": "Deactivate",
+                                    "type": "PSToggleSwitchSpecifier",
+                                    "varType": "bool"
+                                }
+                            ],
+                            "key": "PullToRefresh",
+                            "subgroups": [],
+                            "type": "group"
+                        }
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": -900,
+                            "key": "ZValue",
+                            "max": -800,
+                            "min": -1500,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "false",
+                            "key": "SyncSingleImageZWithGrid",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": 0,
+                            "key": "LayoutYOffset",
+                            "max": 0,
+                            "min": -250,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.85f",
+                            "key": "MaxContentScreenWidth",
+                            "max": 1.0,
+                            "min": 0.5,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.62f",
+                            "key": "MaxContentScreenHeight",
+                            "max": 1.0,
+                            "min": 0.5,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.53f",
+                            "key": "MaxOverPinch",
+                            "max": 2.0,
+                            "min": 1.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.55f",
+                            "key": "OverPinchSigmoidLambda",
+                            "max": 1.0,
+                            "min": 0.1,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.61f",
+                            "key": "HeartAnimationMaxAlpha",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.2f",
+                            "key": "HeartAnimationDurationSeconds",
+                            "max": "3",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.f",
+                            "key": "AmbientColor",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.f",
+                            "key": "DiffuseColor",
+                            "max": "1",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "51.f",
+                            "key": "PinchPickUpZOffset",
+                            "max": 500,
+                            "min": 0,
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "StreamImageView",
+                    "subgroups": [
+                        {
+                            "children": [
+                                {
+                                    "defaultValue": "500.f",
+                                    "key": "PanManipulationSpringiness",
+                                    "max": 1000,
+                                    "min": 1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "true",
+                                    "key": "UsePanManipulationSpring",
+                                    "type": "PSToggleSwitchSpecifier",
+                                    "varType": "bool"
+                                },
+                                {
+                                    "defaultValue": "21.f",
+                                    "key": "PanSettlingSpringiness",
+                                    "max": 50,
+                                    "min": 1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "1.f",
+                                    "key": "Velocity",
+                                    "max": 1.0,
+                                    "min": 0.1,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "1.45f",
+                                    "key": "PageSpacing",
+                                    "max": 1.5,
+                                    "min": 1.0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "428.0f",
+                                    "key": "SettleBasedOnVelocityThreshold",
+                                    "max": 1000.0,
+                                    "min": 0.0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "0.45f",
+                                    "key": "SettleOnNextPageThreshold",
+                                    "max": 1.0,
+                                    "min": 0.0,
+                                    "varType": "float"
+                                }
+                            ],
+                            "key": "Pan",
+                            "subgroups": [],
+                            "type": "group"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "defaultValue": "7.f",
+                                    "key": "PerturbationRotationMagnitudeDegrees",
+                                    "max": 45,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 193,
+                                    "key": "PerturbationOffsetMagnitude",
+                                    "max": 500,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 5,
+                                    "key": "PerturbationOffsetClustering",
+                                    "max": 10,
+                                    "min": 1,
+                                    "varType": "int"
+                                }
+                            ],
+                            "key": "Offscreen",
+                            "subgroups": [],
+                            "type": "group"
+                        }
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": 6,
+                            "key": "ImageCount",
+                            "max": 12,
+                            "min": 1,
+                            "varType": "int"
+                        },
+                        {
+                            "defaultValue": "0.f",
+                            "key": "ZOffset",
+                            "max": 1500,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "27.f",
+                            "key": "ImageZSpacing",
+                            "max": 100,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "160.f",
+                            "key": "PinchPickUpZOffset",
+                            "max": 500,
+                            "min": 0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.35f",
+                            "key": "MaxStackDepartureDelay",
+                            "max": 0.45,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.057f",
+                            "key": "DarkeningAlphaIncrement",
+                            "max": 0.5,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "1.f",
+                            "key": "MaxDarkeningAlpha",
+                            "max": 1.0,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "16.f",
+                            "key": "DarkeningSpringiness",
+                            "max": 40.0,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "9.3f",
+                            "key": "FadeSpringiness",
+                            "max": 40.0,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 650,
+                            "key": "ImageWidth",
+                            "max": 1024,
+                            "min": 1,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 730,
+                            "key": "StackWidth",
+                            "max": 1024,
+                            "min": 1,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": 400,
+                            "key": "EmptyStackIconWidth",
+                            "max": 1024,
+                            "min": 1,
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "Stack",
+                    "subgroups": [
+                        {
+                            "children": [
+                                {
+                                    "defaultValue": "4.9f",
+                                    "key": "PerturbationRotationMagnitudeDegrees",
+                                    "max": 45,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": "61.f",
+                                    "key": "PerturbationOffsetMagnitude",
+                                    "max": 500,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 10,
+                                    "key": "PerturbationOffsetClustering",
+                                    "max": 10,
+                                    "min": 1,
+                                    "varType": "int"
+                                },
+                                {
+                                    "defaultValue": 6,
+                                    "key": "PositionCount",
+                                    "max": 16,
+                                    "min": 1,
+                                    "varType": "int"
+                                },
+                                {
+                                    "control": "IASKButtonSpecifier",
+                                    "key": "ButtonRegenerateStackScatters",
+                                    "title": "Regenerate"
+                                }
+                            ],
+                            "key": "Scatter",
+                            "subgroups": [],
+                            "type": "group"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "defaultValue": -3430,
+                                    "key": "Acceleration",
+                                    "max": "-1",
+                                    "min": "-20000",
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": -1729,
+                                    "key": "InitialVelocity",
+                                    "max": "0",
+                                    "min": "-2000",
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 990,
+                                    "key": "InitialZ",
+                                    "max": "1250",
+                                    "min": "0",
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 15.7,
+                                    "key": "PerturbationRotationMagnitudeDegrees",
+                                    "max": 45,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 0,
+                                    "key": "PerturbationOffsetMagnitude",
+                                    "max": 500,
+                                    "min": 0,
+                                    "varType": "float"
+                                },
+                                {
+                                    "defaultValue": 1,
+                                    "key": "PerturbationOffsetClustering",
+                                    "max": 10,
+                                    "min": 1,
+                                    "varType": "int"
+                                },
+                                {
+                                    "defaultValue": 53.35,
+                                    "key": "Bounciness",
+                                    "max": 100,
+                                    "min": 1,
+                                    "varType": "float"
+                                }
+                            ],
+                            "key": "DropAnimation",
+                            "subgroups": [],
+                            "type": "group"
+                        }
+                    ],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "0.2f",
+                            "key": "SmoothingAlpha",
+                            "max": "1.0",
+                            "min": "0",
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.047f",
+                            "key": "TiltMagnitude",
+                            "max": 0.1,
+                            "min": 0.0,
+                            "varType": "float"
+                        },
+                        {
+                            "defaultValue": "0.3f",
+                            "key": "MaxTilt",
+                            "max": 0.5,
+                            "min": 0.1,
+                            "varType": "float"
+                        }
+                    ],
+                    "key": "TiltAnimations",
+                    "subgroups": [],
+                    "type": "group",
+                    "varType": "bool}"
+                }
+            ],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "LogLoadPriorities",
+                    "title": "Log Load Priorities"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "LogQueueContents",
+                    "title": "Log Queue Contents"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "LogMemoryUsage",
+                    "title": "Log Memory Usage"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ActivateFrameRateLogging",
+                    "title": "Activate Frame Rate Logging"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "DeactivateFrameRateLogging",
+                    "title": "Deactivate Frame Rate Logging"
+                },
+                {
+                    "defaultValue": "5.f",
+                    "key": "RateLoggingFrequencySeconds",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "varType": "float"
+                }
+            ],
+            "key": "Debugging",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "10.f",
+                    "key": "PagePriorityDeltaWhenNoOpenJournal",
+                    "max": 10.0,
+                    "min": 0.0,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.2f",
+                    "key": "StreamStackImagePriorityDelta",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.f",
+                    "key": "TextureLoadOperationDelay",
+                    "max": 2.0,
+                    "min": 0.0,
+                    "varType": "float"
+                }
+            ],
+            "key": "Loading",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "Enabled",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "control": "IASKButtonSpecifier",
+                    "key": "ButtonResetWanderthrough",
+                    "title": "Reset"
+                },
+                {
+                    "defaultValue": "200.f",
+                    "key": "DistanceVerticalPanSuccessThreshold",
+                    "max": "724",
+                    "min": "10",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "300.f",
+                    "key": "DistanceHorizontalPanSuccessThreshold",
+                    "max": "1024",
+                    "min": "10",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "180.f",
+                    "key": "DistanceToolTrayGestureOffsetX",
+                    "max": "300",
+                    "min": "-300",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "100.f",
+                    "key": "DistanceToolTrayGestureOffsetY",
+                    "max": "300",
+                    "min": "-100",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "250.f",
+                    "key": "DistancePinchGestureMaxWidth",
+                    "max": "500",
+                    "min": "50",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "120.f",
+                    "key": "DistanceEdgePanHorizontalOffset",
+                    "max": "500",
+                    "min": "-100",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.915162f",
+                    "key": "DurationCircularButtonPulse",
+                    "max": "3",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.628159f",
+                    "key": "DurationPopoverAnimateIn",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.140794f",
+                    "key": "DurationPopoverAnimateOut",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.0f",
+                    "key": "DurationPopoverAnimateOutStateChange",
+                    "max": "2",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.752708f",
+                    "key": "DurationPopoverShowConfirmation",
+                    "max": "3",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.96751f",
+                    "key": "DurationPanGesture",
+                    "max": "5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.74368f",
+                    "key": "DurationTapGesture",
+                    "max": "3",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": 2.0,
+                    "key": "DurationTapHoldGesture",
+                    "max": "4",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.77798f",
+                    "key": "DurationWindingGesture",
+                    "max": "5",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "20.f",
+                    "key": "MarginBottomPopover",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "20.f",
+                    "key": "MarginLeftPopover",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "20.f",
+                    "key": "MarginRightPopover",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "20.f",
+                    "key": "MarginTopPopover",
+                    "max": "100",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "20.0f",
+                    "key": "MaximumDurationToTriggerGuide",
+                    "max": "20",
+                    "min": "0.1",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.597473f",
+                    "key": "OpacityFingerGuide",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.25f",
+                    "key": "OpacityFingerGuideEngaged",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "100.0f",
+                    "key": "OffsetWindingGestureX",
+                    "max": "250",
+                    "min": "-250",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.0f",
+                    "key": "OffsetWindingGestureY",
+                    "max": "250",
+                    "min": "-250",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "60.3069f",
+                    "key": "RadiusLargeTouchPoint",
+                    "max": "65",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "40.361f",
+                    "key": "RadiusSmallTouchPoint",
+                    "max": "65",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "125.433f",
+                    "key": "RadiusWindingGesture",
+                    "max": "200",
+                    "min": "30",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "-4.71225f",
+                    "key": "RotationWindingGesture",
+                    "max": "-1.0",
+                    "min": "-6.2",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "1.1426f",
+                    "key": "ScaleTapGesture",
+                    "max": "2.5",
+                    "min": "0.5",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.7f",
+                    "key": "ScaleTapDown",
+                    "max": "1",
+                    "min": "0.1",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "4.38628f",
+                    "key": "ShadowOffsetTouchPoint",
+                    "max": "10",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "0.716606f",
+                    "key": "ShadowOpacityTouchPoint",
+                    "max": "1",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "8.f",
+                    "key": "ShadowRadiusTouchPoint",
+                    "max": "15",
+                    "min": "0",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "200.f",
+                    "key": "SpeedTapDrag",
+                    "max": "500",
+                    "min": "80",
+                    "varType": "float"
+                },
+                {
+                    "defaultValue": "18.0f",
+                    "key": "WidthCircularButtonPrompt",
+                    "max": "30",
+                    "min": "0",
+                    "varType": "float"
+                }
+            ],
+            "key": "Wanderthrough",
+            "subgroups": [
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "GroupEnabled",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "ResetGroupBasicFeatures",
+                            "title": "Reset Group"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "JournalCreate",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingToolTray",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingUndo",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingFlipPage",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingClosePage",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingAutoAddPage",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        }
+                    ],
+                    "key": "BasicFeatures",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "GroupEnabled",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "ResetGroupPagesAndJournals",
+                            "title": "Reset Group"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "PageMove",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "PageDuplicate",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        }
+                    ],
+                    "key": "PagesAndJournals",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "GroupEnabled",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "ResetGroupUsingColor",
+                            "title": "Reset Group"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingOpenColorSlider",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingSwitchColorPalette",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingSaveColor",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingFill",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingClear",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        }
+                    ],
+                    "key": "UsingColor",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "GroupEnabled",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "ResetGroupStream",
+                            "title": "Reset Group"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "StreamPan",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        }
+                    ],
+                    "key": "Stream",
+                    "subgroups": [],
+                    "type": "group"
+                },
+                {
+                    "children": [
+                        {
+                            "defaultValue": "true",
+                            "key": "GroupEnabled",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        },
+                        {
+                            "control": "IASKButtonSpecifier",
+                            "key": "ResetGroupZoom",
+                            "title": "Reset Group"
+                        },
+                        {
+                            "defaultValue": "true",
+                            "key": "DrawingZoom",
+                            "type": "PSToggleSwitchSpecifier",
+                            "varType": "bool"
+                        }
+                    ],
+                    "key": "Zoom",
+                    "subgroups": [],
+                    "type": "group"
+                }
+            ],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "SlightlyDelayUploads",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "GreatlyDelayUploads",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "LogActivity",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                }
+            ],
+            "key": "Moleskine",
+            "subgroups": [],
+            "type": "group"
+        },
+        {
+            "children": [
+                {
+                    "defaultValue": "false",
+                    "key": "LogEventAnalytics",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                },
+                {
+                    "defaultValue": "false",
+                    "key": "LogSessionAnalytics",
+                    "type": "PSToggleSwitchSpecifier",
+                    "varType": "bool"
+                }
+            ],
+            "key": "Analytics",
+            "subgroups": [],
+            "type": "group"
+        }
+    ],
+    "type": "group"
+}

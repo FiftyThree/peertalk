@@ -43,6 +43,7 @@
 		6A88FA63150D61DE00FC3647 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */; };
 		6ACFD2D6151D36220081ACF5 /* PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFD2D4151D36220081ACF5 /* PTChannel.h */; };
 		6ACFD2D7151D36220081ACF5 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFD2D5151D36220081ACF5 /* PTChannel.m */; };
+		92F7216518622F07001194DF /* Paper.json in Resources */ = {isa = PBXBuildFile; fileRef = 92F7216418622F07001194DF /* Paper.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
 		6ACFD2D4151D36220081ACF5 /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
 		6ACFD2D5151D36220081ACF5 /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		92F7216418622F07001194DF /* Paper.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Paper.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 		6A64AAEA1526050D0065BF86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92F7216418622F07001194DF /* Paper.json */,
 				6A2E8E3A1527467E001B90E4 /* Icon-114@2x.png */,
 				6A2E8E361527451D001B90E4 /* Icon-144@2x.png */,
 				6A2E8E38152745EF001B90E4 /* Icon-72.png */,
@@ -423,6 +426,7 @@
 			files = (
 				6A64AAEE1526050D0065BF86 /* InfoPlist.strings in Resources */,
 				6A64AAF71526050D0065BF86 /* MainStoryboard_iPhone.storyboard in Resources */,
+				92F7216518622F07001194DF /* Paper.json in Resources */,
 				6A64AAFA1526050D0065BF86 /* MainStoryboard_iPad.storyboard in Resources */,
 				6A2E8E351527411E001B90E4 /* Default@2x.png in Resources */,
 				6A2E8E371527451D001B90E4 /* Icon-144@2x.png in Resources */,

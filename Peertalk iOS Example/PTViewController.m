@@ -114,6 +114,19 @@
 }
 
 
+-(void)sendJSON
+{
+    if (!peerChannel_) {
+        return;
+    }
+    
+    NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"Paper" ofType:@"json"];
+    NSData* data = [NSData dataWithContentsOfFile:jsonPath];
+    
+    NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    [self sendMessage:jsonString];
+}
+
 #pragma mark - PTChannelDelegate
 
 // Invoked to accept an incoming frame on a channel. Reply NO ignore the
@@ -171,6 +184,8 @@
   
   // Send some information about ourselves to the other end
   [self sendDeviceInfo];
+    
+  [self sendJSON];
 }
 
 
