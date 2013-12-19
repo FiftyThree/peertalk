@@ -71,7 +71,7 @@ static void _release_queue_local_protocol(void *objcobj) {
 - (id)initWithDispatchQueue:(dispatch_queue_t)queue {
   if (!(self = [super init])) return nil;
   queue_ = queue;
-  if (queue_) dispatch_retain(queue_);
+//  if (queue_) dispatch_retain(queue_);
   return self;
 }
 
@@ -80,9 +80,9 @@ static void _release_queue_local_protocol(void *objcobj) {
 }
 
 - (void)dealloc {
-  if (queue_) {
-    dispatch_release(queue_);
-  }
+//  if (queue_) {
+//    dispatch_release(queue_);
+//  }
 }
 
 - (dispatch_queue_t)queue {
@@ -90,10 +90,10 @@ static void _release_queue_local_protocol(void *objcobj) {
 }
 
 - (void)setQueue:(dispatch_queue_t)queue {
-  dispatch_queue_t prev_queue = queue_;
+//  dispatch_queue_t prev_queue = queue_;
   queue_ = queue;
-  if (queue_) dispatch_retain(queue_);
-  if (prev_queue) dispatch_release(prev_queue);
+//  if (queue_) dispatch_retain(queue_);
+//  if (prev_queue) dispatch_release(prev_queue);
 }
 
 
@@ -127,7 +127,7 @@ static void _release_queue_local_protocol(void *objcobj) {
   if (payload && frame->payloadSize != 0) {
     // chain frame + payload
     dispatch_data_t data = dispatch_data_create_concat(frameData, payload);
-    dispatch_release(frameData);
+//    dispatch_release(frameData);
     frameData = data;
   }
   
@@ -146,7 +146,7 @@ static void _release_queue_local_protocol(void *objcobj) {
       callback(_errno == 0 ? nil : [[NSError alloc] initWithDomain:NSPOSIXErrorDomain code:_errno userInfo:nil]);
     }
   });
-  dispatch_release(frame);
+//  dispatch_release(frame);
 }
 
 
@@ -164,11 +164,11 @@ static void _release_queue_local_protocol(void *objcobj) {
     if (dataSize) {
       if (!allData) {
         allData = data;
-        dispatch_retain(allData);
+//        dispatch_retain(allData);
       } else {
-        dispatch_data_t allDataPrev = allData;
+//        dispatch_data_t allDataPrev = allData;
         allData = dispatch_data_create_concat(allData, data);
-        dispatch_release(allDataPrev);
+//        dispatch_release(allDataPrev);
       }
     }
     
@@ -184,7 +184,7 @@ static void _release_queue_local_protocol(void *objcobj) {
       }
       
       if (!allData || dispatch_data_get_size(allData) < sizeof(PTFrame)) {
-        if (allData) dispatch_release(allData);
+//        if (allData) dispatch_release(allData);
         callback([[NSError alloc] initWithDomain:PTProtocolErrorDomain code:0 userInfo:nil], 0, 0, 0);
         return;
       }
@@ -193,7 +193,7 @@ static void _release_queue_local_protocol(void *objcobj) {
       size_t size = 0;
       
       dispatch_data_t contiguousData = dispatch_data_create_map(allData, (const void **)&frame, &size);
-      dispatch_release(allData);
+//      dispatch_release(allData);
       if (!contiguousData) {
         callback([[NSError alloc] initWithDomain:NSPOSIXErrorDomain code:ENOMEM userInfo:nil], 0, 0, 0);
         return;
@@ -209,7 +209,7 @@ static void _release_queue_local_protocol(void *objcobj) {
         callback(nil, frame->type, frame->tag, frame->payloadSize);
       }
       
-      dispatch_release(contiguousData);
+//      dispatch_release(contiguousData);
     }
   });
 }
@@ -224,23 +224,23 @@ static void _release_queue_local_protocol(void *objcobj) {
     if (dataSize) {
       if (!allData) {
         allData = data;
-        dispatch_retain(allData);
+//        dispatch_retain(allData);
       } else {
-        dispatch_data_t allDataPrev = allData;
+//        dispatch_data_t allDataPrev = allData;
         allData = dispatch_data_create_concat(allData, data);
-        dispatch_release(allDataPrev);
+//        dispatch_release(allDataPrev);
       }
     }
     
     if (done) {
       if (error != 0) {
-        if (allData) dispatch_release(allData);
+//        if (allData) dispatch_release(allData);
         callback([[NSError alloc] initWithDomain:NSPOSIXErrorDomain code:error userInfo:nil], NULL, NULL, 0);
         return;
       }
       
       if (dataSize == 0) {
-        if (allData) dispatch_release(allData);
+//        if (allData) dispatch_release(allData);
         callback(nil, NULL, NULL, 0);
         return;
       }
@@ -251,7 +251,8 @@ static void _release_queue_local_protocol(void *objcobj) {
       
       if (allData) {
         contiguousData = dispatch_data_create_map(allData, (const void **)&buffer, &bufferSize);
-        dispatch_release(allData); allData = NULL;
+//        dispatch_release(allData);
+          allData = NULL;
         if (!contiguousData) {
           callback([[NSError alloc] initWithDomain:NSPOSIXErrorDomain code:ENOMEM userInfo:nil], NULL, NULL, 0);
           return;
@@ -259,7 +260,7 @@ static void _release_queue_local_protocol(void *objcobj) {
       }
       
       callback(nil, contiguousData, buffer, bufferSize);
-      if (contiguousData) dispatch_release(contiguousData);
+//      if (contiguousData) dispatch_release(contiguousData);
     }
   });
 }
@@ -297,11 +298,11 @@ static void _release_queue_local_protocol(void *objcobj) {
 - (id)initWithDispatchData:(dispatch_data_t)dispatchData {
   if (!(self = [super init])) return nil;
   dispatchData_ = dispatchData;
-  dispatch_retain(dispatchData_);
+//  dispatch_retain(dispatchData_);
   return self;
 }
 - (void)dealloc {
-  if (dispatchData_) dispatch_release(dispatchData_);
+//  if (dispatchData_) dispatch_release(dispatchData_);
 }
 @end
 
@@ -330,7 +331,7 @@ static void _release_queue_local_protocol(void *objcobj) {
   
   _PTDispatchData *dispatchDataRef = [[_PTDispatchData alloc] initWithDispatchData:contiguousData];
   NSData *newData = [NSData dataWithBytesNoCopy:(void*)buffer length:bufferSize freeWhenDone:NO];
-  dispatch_release(contiguousData);
+//  dispatch_release(contiguousData);
   static const bool kDispatchDataRefKey;
   objc_setAssociatedObject(newData, (const void*)kDispatchDataRefKey, dispatchDataRef, OBJC_ASSOCIATION_RETAIN);
   
@@ -365,7 +366,7 @@ static void _release_queue_local_protocol(void *objcobj) {
     return nil;
   }
   NSDictionary *dict = [NSPropertyListSerialization propertyListWithData:[NSData dataWithBytesNoCopy:(void*)buffer length:bufferSize freeWhenDone:NO] options:NSPropertyListImmutable format:NULL error:nil];
-  dispatch_release(contiguousData);
+//  dispatch_release(contiguousData);
   return dict;
 }
 
