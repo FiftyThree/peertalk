@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41DC664F1864FF4400DE3B76 /* PTPaperRemoteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DC664E1864FF4400DE3B76 /* PTPaperRemoteProtocol.h */; };
 		6A2E8E351527411E001B90E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E341527411E001B90E4 /* Default@2x.png */; };
 		6A2E8E371527451D001B90E4 /* Icon-144@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E361527451D001B90E4 /* Icon-144@2x.png */; };
 		6A2E8E39152745EF001B90E4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E38152745EF001B90E4 /* Icon-72.png */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41DC664E1864FF4400DE3B76 /* PTPaperRemoteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPaperRemoteProtocol.h; sourceTree = "<group>"; };
 		6A0A056E150DB1C10014D424 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A2E8E341527411E001B90E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6A2E8E361527451D001B90E4 /* Icon-144@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144@2x.png"; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 		6A88FA39150D613800FC3647 /* peertalk */ = {
 			isa = PBXGroup;
 			children = (
+				41DC664E1864FF4400DE3B76 /* PTPaperRemoteProtocol.h */,
 				6A4010D515275E3800EF0E92 /* prefix.pch */,
 				6ACFD2D4151D36220081ACF5 /* PTChannel.h */,
 				6ACFD2D5151D36220081ACF5 /* PTChannel.m */,
@@ -303,6 +306,7 @@
 				6A88FA60150D61DE00FC3647 /* PTProtocol.h in Headers */,
 				6A88FA62150D61DE00FC3647 /* PTUSBHub.h in Headers */,
 				6ACFD2D6151D36220081ACF5 /* PTChannel.h in Headers */,
+				41DC664F1864FF4400DE3B76 /* PTPaperRemoteProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
