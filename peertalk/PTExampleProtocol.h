@@ -4,7 +4,7 @@
 #import <Foundation/Foundation.h>
 #include <stdint.h>
 
-static const int PTExampleProtocolIPv4PortNumber = 2345;
+static const int PTExampleProtocolIPv4PortNumber = 4345;
 
 enum {
   PTExampleFrameTypeDeviceInfo = 100,
@@ -23,7 +23,7 @@ static dispatch_data_t PTExampleTextDispatchDataWithString(NSString *message) {
   // Use a custom struct
   const char *utf8text = [message cStringUsingEncoding:NSUTF8StringEncoding];
   size_t length = strlen(utf8text);
-  PTExampleTextFrame *textFrame = CFAllocatorAllocate(nil, sizeof(PTExampleTextFrame) + length, 0);
+  PTExampleTextFrame *textFrame = (PTExampleTextFrame *)CFAllocatorAllocate(nil, sizeof(PTExampleTextFrame) + length, 0);
   memcpy(textFrame->utf8text, utf8text, length); // Copy bytes to utf8text array
   textFrame->length = htonl(length); // Convert integer to network byte order
   
